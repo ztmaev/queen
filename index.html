@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f43eb5a02e.js" crossorigin="anonymous"></script>
+    <title>M437</title>
+    <style>
+        *{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+height: auto;
+width: auto;
+}
+body{
+background: #42455a;
+}
+.container{
+width: 100%;
+height: 100%;
+background: #42455a;
+}
+.menu ul{
+display: inline-flex;
+margin: 50px;
+}
+.menu ul li{
+list-style: none;
+display: inline-flex;
+margin: 0 20px;
+color: #b2b1b1;
+cursor: pointer;
+} 
+.logo img{
+width: 50px;
+margin-top: -15px;
+margin-right: 48px;
+}
+#active{
+color: aqua;
+}
+.signup-btn{
+top: 40px;
+right: 170px;
+position: absolute;
+text-decoration: none;
+color: #fff;
+border: 2px solid transparent;
+border-radius: 20px;
+background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+background-origin: border-box;
+background-clip: content-box,border-box;
+ }
+ .signup-btn span{
+display: block; 
+padding: 8px 22px;
+ }
+ .login-btn{
+top: 40px;
+right: 60px;
+position: absolute;
+text-decoration: none;
+color: #fff;
+border: 2px solid transparent;
+border-radius: 20px;
+background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+background-origin: border-box;
+background-clip: content-box,border-box;
+ }
+ .login-btn span{
+display: block; 
+padding: 8px 22px;
+ }
+ .banner{
+width: 80%;
+height: 70%;
+top: 25%;
+left: 130px;
+position: absolute;
+color: #fff;
+ }
+ .app-text{
+width: 50%;
+float: left;
+ }
+ .app-text h1{
+font-size: 43px;
+width: 640px;
+position: relative;
+margin-left: 40px;
+ }
+ .app-text p{
+font-size: 15px;
+width: 640px;
+margin: 30px 0 30px 40px;
+line-height: 25px;
+color: #919191;
+ }
+ .app-picture{
+width: 50%;
+float: right;
+ }
+ .app-picture img{
+width: 100%;
+ margin-top: -20px;
+ padding-left: 50px;
+ }
+ .play-btn{
+margin-left: 40px;
+display: inline-flex;
+
+ }
+ .play-btn-inner{
+height: 50px;
+width: 50px;
+border: 2px solid transparent;
+border-radius: 50%;
+background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+background-origin: border-box;
+background-clip: content-box,border-box;
+text-align: center; 
+ }
+ .play-btn-inner .fa{
+padding: 18px 0;
+font-size: 13px;
+cursor: pointer; 
+ }
+ small{
+margin: auto;
+padding-left: 20px;
+cursor: pointer;
+font-size: 12px;
+color: #19dafa;
+letter-spacing: 3px;
+ }
+ .quick-links{
+left: 0;
+bottom: 0;
+position: absolute;
+background: linear-gradient(to right, #db1bf6,#19d7f8);
+ }
+ .quick-links ul{
+display: inline-flex;
+margin: 30px auto;
+text-align: center;
+
+ }
+ .quick-links ul li{
+list-style: none;
+margin: 0 50px;
+cursor: pointer;
+height: 30px;
+ }
+ .quick-links ul li .fa{
+font-size: 25px;
+color: #fff;
+ }
+ .quick-links ul li p{
+font-size: 10px;
+color: #fff;
+margin-top: 15px;
+ }
+ .social-icons{
+right: 72px;
+bottom: 35px;
+position: absolute;
+font-size: 20px;
+ }
+ .social-icons ul li{
+list-style: none;
+margin-top: 15px;
+text-align: center;
+ }
+ .social-icons ul li a{
+color: #999;
+border-radius: 50%;
+border: 1px solid #999;
+padding: 5px;
+display: block;
+ }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li class="logo"><img src="pics/dp.png" alt="logo"></li>
+                <li id="active">Home</li>
+                <li>School</li>
+                <li>Tools</li>
+                <li>Games</li>
+                <li><a href="#" class="signup-btn"><span> Sign up </span></a></li>
+                <li><a href="#" class="login-btn"><span> Log in </span></a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <div class="app-text">
+
+                <h1>
+                    COMING SOON
+                </h1>
+                <p>This site is still under development <br> Have a look around for now
+                </p>
+                <div class="play-btn">
+                    <div class="play-btn-inner"><i class="fa fa-play"></i></div>
+                    <small><b> LEARN MORE</b></small>
+                </div>
+            </div>
+            <div class="app-picture">
+                <img src="pics/art.png" alt="big pic">
+            </div>
+        </div>
+        <div class="quick-links">
+            <ul>
+                <li><i class="fa fa-share-alt"></i>
+                    <p>SHARE TO</p>
+                </li>
+                <li><i class="fa fa-audio-description"></i>
+                    <p>RECENT</p>
+                </li>
+                <li><i class="fa fa-cog"></i>
+                    <p>ANALYTICS</p>
+                </li>
+                <li><i class="fa fa-btc"></i>
+                    <p>WALLET</p>
+                </li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <ul>
+                <li><a href="https://wa.me/254798853808?text=Hi%F0%9F%91%8B" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="https://github.com/ztmaev" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCWcPc-qJky-IfZ16581UjGA" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="http://twitter.com/maevwat_" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://drive.google.com/file/d/1iSG6bSh9UQlj0gPnnCi5H9Ho08Z_aLLr/view?usp=sharing" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+
+        </div>
+    </div>
+</body>
+
+</html>
