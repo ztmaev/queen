@@ -50,8 +50,8 @@ background-origin: border-box;
 background-clip: content-box,border-box;
  }
  .signup-btn :hover,.login-btn :hover {
-    border: 2px solid;
-    border-radius: 20px;
+border: 2px solid;
+border-radius: 20px;
  }
  .signup-btn span{
 display: block; 
@@ -122,6 +122,11 @@ background-origin: border-box;
 background-clip: content-box,border-box;
 text-align: center; 
  }
+ .play-btn-inner :hover{
+    width: 50px;
+    border: 2px solid;
+    border-radius: 50px;
+ }
  .play-btn-inner .fa{
 padding: 18px 0;
 font-size: 13px;
@@ -134,6 +139,9 @@ cursor: pointer;
 font-size: 12px;
 color: #19dafa;
 letter-spacing: 3px;
+ }
+ small :hover{
+    color: aliceblue;
  }
  .quick-links{
 left: 0;
@@ -158,6 +166,9 @@ height: 30px;
 font-size: 25px;
 color: #fff;
  }
+ .quick-links ul li :hover{
+    color: rgb(22, 100, 168);
+ }
  .quick-links ul li p{
 font-size: 10px;
 color: #fff;
@@ -173,6 +184,10 @@ font-size: 23px;
 list-style: none;
 margin-top: 15px;
 text-align: center;
+ 
+ }
+.social-icons ul li a :hover{
+color: aliceblue;
  }
  .social-icons ul li a{
 color: #999;
