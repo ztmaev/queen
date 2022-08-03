@@ -6,12 +6,12 @@ height: auto;
 width: auto;
 }
 body{
-background: #42455a;
+background: #393c4f;
 }
 .container{
 width: 100%;
 height: auto;
-background: #42455a;
+background: #393c4f;
 }
 .menu ul{
 display: inline-flex;
