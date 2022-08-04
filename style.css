@@ -1,198 +1,207 @@
-*{
-margin: 0;
-padding: 0;
-font-family: sans-serif;
-height: auto;
-width: auto;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: auto;
+  width: auto;
 }
-body{
-background: #0D1117;
+body {
+  background: #0d1117;
 }
-.container{
-width: 100%;
-height: auto;
-background: #0D1117;
+.container {
+  width: 100%;
+  height: auto;
+  background: #161B22;
 }
-.menu ul{
-display: inline-flex;
-margin: 7px;
-padding-top: 20px;
+.menu ul {
+  display: inline-flex;
+  margin: auto;
+  padding-top: 25px;
 }
-.menu ul li{
-list-style: none;
-display: inline-flex;
-margin: 0 30px;
-color: #b2b1b1;
-cursor: pointer;
-} 
-.hov :hover{
-color: aliceblue;
+.menu ul li {
+  list-style: none;
+  display: inline-flex;
+  margin: 0 30px;
+  color: #b2b1b1;
+  cursor: pointer;
 }
-.logo img{
-width: 50px;
-margin-top: -30px;
-margin-right: 48px;
-padding-top: 5px;
+.hov :hover {
+  color: aliceblue;
 }
-#active{
-color: aqua;
+.logo img {
+  width: 50px;
+  margin-top: -25px;
+  margin-right: 48px;
+  padding-top: 5px;
 }
-.signup-btn{
-top: 15px;
-right: 170px;
-position: absolute;
-text-decoration: none;
-color: #fff;
-border: 2px solid transparent;
-border-radius: 20px;
-background-image: linear-gradient(#0D1117,#0D1117),radial-gradient(circle at top left,#fd00da,#19d7f8);
-background-origin: border-box;
-background-clip: content-box,border-box;
- }
- .signup-btn :hover,.login-btn :hover {
-border: 2px solid;
-border-radius: 20px;
- }
- .signup-btn span{
-display: block; 
-padding: 8px 20px;
- }
- .login-btn{
-top: 15px;
-right: 60px;
-position: absolute;
-text-decoration: none;
-color: #fff;
-border: 2px solid transparent;
-border-radius: 20px;
-background-image: linear-gradient(#0D1117,#0D1117),radial-gradient(circle at top left,#fd00da,#19d7f8);
-background-origin: border-box;
-background-clip: content-box,border-box;
- }
- .login-btn span{
-display: block; 
-padding: 8px 20px;
- }
- .banner{
-width: 80%;
-height: 70%;
-top: 25%;
-left: 130px;
-position: absolute;
-color: #fff;
- }
- .app-text{
-width: 50%;
-float: left;
- }
- .app-text h1{
-font-size: 43px;
-width: 640px;
-position: relative;
-margin-left: 40px;
- }
- .app-text p{
-font-size: 15px;
-width: 640px;
-margin: 30px 0 30px 40px;
-line-height: 25px;
-color: #919191;
- }
- .app-picture{
-width: 50%;
-float: right;
- }
- .app-picture img{
-width: 100%;
- margin-top: -20px;
- padding-left: 50px;
- }
- .play-btn{
-margin-left: 40px;
-display: inline-flex;
-
- }
- .play-btn-inner{
-height: 50px;
-width: 50px;
-border: 2px solid transparent;
-border-radius: 50%;
-background-image: linear-gradient(#0D1117,#0D1117),radial-gradient(circle at top left,#fd00da,#19d7f8);
-background-origin: border-box;
-background-clip: content-box,border-box;
-text-align: center; 
- }
- .play-btn-inner :hover{
-    width: 50px;
-    border: 2px solid;
-    border-radius: 50px;
- }
- .play-btn-inner .fa{
-padding: 18px 0;
-font-size: 13px;
-cursor: pointer; 
- }
- small{
-margin: auto;
-padding-left: 20px;
-cursor: pointer;
-font-size: 12px;
-color: #19dafa;
-letter-spacing: 3px;
- }
- small :hover{
-    color: aliceblue;
- }
- .quick-links{
-left: 0;
-bottom: 0;
-position: absolute;
-background: linear-gradient(to right, #db1bf6,#19d7f8);
- }
- .quick-links ul{
-display: inline-flex;
-margin-left: 15px;
-margin-top: 10px;
-text-align: center;
-padding-bottom: 25px
- }
- .quick-links ul li{
-list-style: none;
-margin: 0 50px;
-cursor: pointer;
-height: 30px;
- }
- .quick-links ul li .fa{
-font-size: 25px;
-color: #fff;
- }
- .quick-links ul li :hover{
-    color: rgb(22, 100, 168);
- }
- .quick-links ul li p{
-font-size: 10px;
-color: #fff;
-margin-top: 15px;
- }
- .social-icons{
-right: 72px;
-bottom: 35px;
-position: absolute;
-font-size: 23px;
- }
- .social-icons ul li{
-list-style: none;
-margin-top: 15px;
-text-align: center;
- 
- }
-.social-icons ul li a :hover{
-color: aliceblue;
- }
- .social-icons ul li a{
-color: #999;
-border-radius: 50%;
-border: 1px solid #999;
-padding: 5px;
-display: block;
- }
+#active {
+  color: aqua;
+}
+.signup-btn {
+  top: 15px;
+  right: 170px;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#0d1117, #0d1117),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.signup-btn :hover,
+.login-btn :hover {
+   color: cyan;
+  text-decoration: none;;
+   border-radius: 25px;
+   background-image: linear-gradient(#44536b, #44536b),
+     radial-gradient(circle at top left, #444444, #19d7f8);
+}
+.signup-btn span {
+  display: block;
+  padding: 8px 20px;
+}
+.login-btn {
+  top: 15px;
+  right: 60px;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#0d1117, #0d1117),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.login-btn span {
+  display: block;
+  padding: 8px 20px;
+}
+.banner {
+  width: 80%;
+  height: 70%;
+  top: 25%;
+  left: 130px;
+  position: absolute;
+  color: #fff;
+}
+.app-text {
+  width: 50%;
+  float: left;
+}
+.app-text h1 {
+  font-size: 43px;
+  width: 640px;
+  position: relative;
+  margin-left: 40px;
+}
+.app-text p {
+  font-size: 15px;
+  width: 640px;
+  margin: 30px 0 30px 40px;
+  line-height: 25px;
+  color: #919191;
+}
+.app-picture {
+  width: 50%;
+  float: right;
+}
+.app-picture img {
+  width: 100%;
+  margin-top: -20px;
+  padding-left: 50px;
+}
+.play-btn {
+  margin-left: 40px;
+  display: inline-flex;
+}
+.play-btn-inner {
+  height: 50px;
+  width: 50px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(#0d1117, #0d1117),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+}
+.play-btn-inner :hover {
+   color: #19d7f8;
+   border-radius: 50px;
+   width: 50px;
+   background-image: linear-gradient(#44536b, #44536b),
+     radial-gradient(circle at top left,  #fd00da, #19d7f8);
+}
+.play-btn-inner .fa {
+  padding: 18px 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+small {
+  margin: auto;
+  padding-left: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #19dafa;
+  letter-spacing: 3px;
+}
+small :hover {
+  color: aliceblue;
+}
+.quick-links {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(to right, #db1bf6, #19d7f8);
+  border-top-right-radius: 10px;
+  color: #141e2e;
+}
+.quick-links ul :hover {
+  color: rgb(202, 228, 250);
+}
+.quick-links ul {
+  display: inline-flex;
+  margin-left: 15px;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.quick-links ul li {
+  list-style: none;
+  margin: 0 50px;
+  cursor: pointer;
+  height: 30px;
+}
+.quick-links ul li .fa {
+  font-size: 25px;
+}
+.quick-links ul li p {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.social-icons {
+  right: 72px;
+  bottom: 35px;
+  position: absolute;
+  font-size: 23px;
+}
+.social-icons ul li {
+  list-style: none;
+  margin-top: 15px;
+  text-align: center;
+}
+.social-icons :hover {
+  color: aliceblue;
+}
+.social-icons ul li a {
+  color: #999;
+  border-radius: 50%;
+  border: 1px solid #999;
+  padding: 5px;
+  display: block;
+}
