@@ -34,7 +34,7 @@ body {
   margin-right: 48px;
   padding-top: 5px;
 }
-#active {
+#active p {
   color: aqua;
 }
 .signup-btn {
@@ -53,7 +53,7 @@ body {
 .signup-btn :hover,
 .login-btn :hover {
    color: cyan;
-  text-decoration: none;;
+   text-decoration: none;;
    border-radius: 25px;
    background-image: linear-gradient(#44536b, #44536b),
      radial-gradient(circle at top left, #444444, #19d7f8);
@@ -116,6 +116,7 @@ body {
 .play-btn {
   margin-left: 40px;
   display: inline-flex;
+  cursor: pointer;
 }
 .play-btn-inner {
   height: 50px;
@@ -128,7 +129,8 @@ body {
   background-clip: content-box, border-box;
   text-align: center;
 }
-.play-btn-inner :hover {
+
+.play-btn .play-circle :hover {
    color: #19d7f8;
    border-radius: 50px;
    width: 50px;
@@ -179,8 +181,8 @@ small :hover {
   font-size: 25px;
 }
 .quick-links ul li p {
-  font-size: 10px;
-  font-weight: bold;
+  font-size: 11px;
+  font-weight: bolder;
   margin-top: 10px;
   text-transform: capitalize;
 }
@@ -205,3 +207,56 @@ small :hover {
   padding: 5px;
   display: block;
 }
+
+/*slides*/
+.slides li {
+  position: absolute;
+  width: 15%;
+  height: 40%;
+  border: 2px solid ;
+  border-color: cyan;
+  background-color: #1b284b;
+  border-radius: 10px;
+  margin: 0 10px;
+  text-decoration: none;
+  list-style: none;
+  opacity: 70%;
+  cursor: pointer;
+}
+.slides :hover{
+  background-color: #161B22;
+  border-color: #db1bf6;
+  transition: 0.3s;
+}
+#slide0 {
+  top: 12%;
+  left: 29%;
+  }
+#slide1 {
+top: 12%;
+left: 46%;
+}
+#slide2 {
+  top: 12%;
+  left: 63%;
+
+}
+#slide3 {
+  top: 12%;
+  left: 80%;
+}
+/*#slide4 {
+  top: 54%;
+  left: 43%;
+}
+#slide5 {
+  top: 54%;
+  left: 59%;
+}
+#slide6 {
+  top: 54%;
+  left: 75%;
+}
+*/
+
+
