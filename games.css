@@ -40,7 +40,10 @@
   }
   #active {
     color: aqua;
+<<<<<<< HEAD
     text-decoration: none;
+=======
+>>>>>>> f4ed675b8453403a739631ef0f2e8a33248ad0b8
   }
   .signup-btn {
     top: 15px;
