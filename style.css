@@ -25,6 +25,10 @@ body {
   color: #b2b1b1;
   cursor: pointer;
 }
+.hov a{
+  color: #b2b1b1;
+  text-decoration: none;
+}
 .hov :hover {
   color: aliceblue;
 }
@@ -36,6 +40,7 @@ body {
 }
 #active {
   color: aqua;
+  text-decoration: none;
 }
 .signup-btn {
   top: 15px;
