@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+
+body {
+	width: 100%;
+	height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #191919;
+}
+
+#clock {
+  padding: 2px 5px 2px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#movable2 {
+  width: fit-content;
+  border: double 2px transparent;
+  border-radius: 5px;
+  background-image: linear-gradient(#191919, #191919),
+    linear-gradient(to right, #eee, #333, #eee, #333, #eee);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  /*movement*/
+  cursor: move;
+  z-index: 10;
+}
+#movable {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+#movable2:hover{
+	background-image: linear-gradient(#191919, #191919),
+    linear-gradient(to right, #eee, #eee);
+	transition: all 0.2s;
+}
+#clock:hover {
+	padding: 3px 6px 3px 6px;
+  transition: all 0.2s;
+}
