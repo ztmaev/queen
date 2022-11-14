@@ -154,3 +154,25 @@ body {
   margin-top: 10px;
   text-transform: capitalize;
 }
+/*clock css*/
+.clock {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  padding: 10px;
+  background: #0d1117;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.clock .date {
+  font-size: 15px;
+  font-weight: 400;
+}
+.clock .time {
+  font-size: 40px;
+  font-weight: 700;
+}
