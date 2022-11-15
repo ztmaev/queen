@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="sidebar.css" />
+
+    <!----===== Boxicons CSS ===== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Maevhub</title>
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="../pics/art.png" alt="">
+          </span>
+
+          <div class="text logo-text">
+            <span class="name"> MaevHub </span>
+            <span class="profession"> _< </span>
+          </div>
+        </div>
+
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <li class="search-box">
+            <i class="bx bx-search icon"></i>
+            <input type="text" placeholder="Search..." />
+          </li>
+
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="text nav-text">Dashboard</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-book-reader icon"></i>
+                <span class="text nav-text">School</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-wrench icon"></i>
+                <span class="text nav-text">Tools</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-world icon"></i>
+                <span class="text nav-text">Sites</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-game icon"></i>
+                <span class="text nav-text">Games</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-server icon"></i>
+                <span class="text nav-text">Servers</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bottom-content">
+          <div class="socials">
+            <a href="#"><i class="bx bxl-twitter icon-3d"></i></a>
+            <a href="#"><i class="bx bxl-facebook icon-3d"></i></a>
+            <a href="#"> <i class="bx bxl-instagram icon-3d"></i></a>
+            <a href="#"> <i class="bx bxl-whatsapp icon-3d"></i></a>
+          </div>
+          <!--
+          <li class="">
+            <a href="#">
+              <i class="bx bx-log-out icon"></i>
+              <span class="text nav-text">Logout</span>
+            </a>
+          </li>-->
+
+          <li class="mode">
+            <div class="sun-moon">
+              <i class="bx bx-moon icon moon"></i>
+              <i class="bx bx-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Dark mode</span>
+
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home">
+        <!--Main content-->
+      <div class="text">Main Page</div>
+      <div id="movable">
+        <div id="movable2">
+          <div id="clock"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="sidebar.js"></script>
+  </body>
+</html>
