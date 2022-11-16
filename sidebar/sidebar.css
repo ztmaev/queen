@@ -9,8 +9,8 @@
 
 :root {
   /* ===== Colors ===== */
-  --body-color: #18191a;
-  --sidebar-color: #242526;
+  --body-color: #0d1117;
+  --sidebar-color: #161B22;
   --primary-color: #3a3b3c;
   --primary-color-light: #3a3b3c;
   --toggle-color: #fff;
@@ -143,8 +143,11 @@ header .image-text .profession {
 }
 
 .sidebar header .image img {
-  width: 40px;
-  border-radius: 6px;
+  width: 50px;
+  border: 2px solid var(--opposite-color);
+  text-align: center;
+  padding: 2px;
+  border-radius: 100px;
 }
 
 .sidebar header .toggle {
@@ -187,7 +190,10 @@ body.dark .sidebar header .toggle {
     color: var(--same-color);
 }
 .sidebar li.search-box:hover {
-    filter:contrast(150%) invert(20%);
+  opacity: 70%;
+transition: all 0.3s ease;
+}
+.sidebar li.search-box input:focus{
 }
 .sidebar li.search-box input {
   height: 100%;
@@ -299,7 +305,7 @@ body.dark .switch::before {
 }
 
 .home {
-  position: absolute;
+  position: fixed;
   top: 0;
   top: 0;
   left: 250px;
@@ -356,9 +362,9 @@ body.dark .home .text {
   }
   #movable2 {
     width: fit-content;
-    border: double 2px transparent;
+    border: double 2px solid;
     border-radius: 5px;
-    background-image: linear-gradient(#191919, #191919),
+    background-image: linear-gradient(var(--opposite-color2), var(--opposite-color2)),
       linear-gradient(to right, #eee, #333, #eee, #333, #eee);
     background-origin: border-box;
     background-clip: content-box, border-box;
@@ -370,16 +376,20 @@ body.dark .home .text {
     position: absolute;
     top: 1%;
     right: 10px;
-    z-index: 9;
     text-align: center;
+    z-index: 10;
   }
   #movable2:hover{
-      background-image: linear-gradient(#191919, #191919),
+      background-image: linear-gradient(var(--opposite-color), var(--opposite-color)),
       linear-gradient(to right, #eee, #eee);
       transition: all 0.2s;
   }
   #clock:hover {
       padding: 3px 6px 3px 6px;
     transition: all 0.2s;
+  }
+  .container{
+    position:fixed;
+    z-index: 0;
   }
   
